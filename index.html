@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Portfolio | Sandi Koren</title>
+
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="./css/font-awesome.min.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/animated-text.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="./css/animate.css" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
+
+
+</head>
+
+
+
+
+
+<body data-spy="scroll" data-target="#mainNav" data-offset="60">
+
+    <div id="preloader">
+      <div id="status">&nbsp;</div>
+    </div>
+
+    <!-- Fixed navbar -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+                <a class="navbar-brand" href="#first-section">sandi <span id="koren">koren</span></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#first-section" onclick="$('#first-section').animatescroll({scrollSpeed:2500,easing:'easeOutBack', padding:50});">Home</a></li>
+                    <li><a href="#second-section" onclick="$('#second-section').animatescroll({scrollSpeed:2500,easing:'easeOutBack', padding:50});">About Me</a></li>
+                    <li><a href="#third-section" onclick="$('#third-section').animatescroll({scrollSpeed:2500,easing:'easeOutBack', padding:50});">Skills<span class="sr-only">(current)</span></a></li>
+                    <li><a href="#fourth-section" onclick="$('#fourth-section').animatescroll({scrollSpeed:2500,easing:'easeOutBack', padding: -10});">Contact</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+      <div class="container-fluid">
+    <section id="first-section" class="first-section">
+      <div class="first-table">
+        <div class="cell">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="first-text text-center wow fadeIn" data-wow-duration="1.8s" data-wow-delay="1.5s" data-wow-iteration="1">
+                  <svg
+                 width="600px" height="100px" viewbox="0 0 600 100">
+              <style type="text/css">
+              <![CDATA[
+                text {
+                  filter: url(#filter);
+                  fill: #66fcf1;
+                    font-family: 'Ubuntu', sans-serif;
+                    font-size: 100px;
+                  -webkit-font-smoothing: antialiased;
+                  -moz-osx-font-smoothing: grayscale;
+                      }
+              ]]>
+              </style>
+                <defs>
+                  <filter id="filter">
+                      <feflood flood-color="black" result="black" />
+                      <feflood flood-color="red" result="flood1" />
+                      <feflood flood-color="limegreen" result="flood2" />
+                    <feoffset in="SourceGraphic" dx="3" dy="0" result="off1a"/>
+                    <feoffset in="SourceGraphic" dx="2" dy="0" result="off1b"/>
+                    <feoffset in="SourceGraphic" dx="-3" dy="0" result="off2a"/>
+                    <feoffset in="SourceGraphic" dx="-2" dy="0" result="off2b"/>
+                      <fecomposite in="flood1" in2="off1a" operator="in"  result="comp1" />
+                      <fecomposite in="flood2" in2="off2a" operator="in" result="comp2" />
+
+                      <femerge x="0" width="100%" result="merge1">
+                      <femergenode in = "black" />
+                      <femergenode in = "comp1" />
+                      <femergenode in = "off1b" />
+
+                      <animate
+                        attributename="y"
+                          id = "y"
+                          dur ="4s"
+
+                          values = "104px; 104px; 30px; 105px; 30px; 2px; 2px; 50px; 40px; 105px; 105px; 20px; 6ßpx; 40px; 104px; 40px; 70px; 10px; 30px; 104px; 102px"
+
+                          keytimes = "0; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1"
+
+                          repeatcount = "indefinite" />
+
+                      <animate attributename="height"
+                          id = "h"
+                          dur ="4s"
+
+                          values = "10px; 0px; 10px; 30px; 50px; 0px; 10px; 0px; 0px; 0px; 10px; 50px; 40px; 0px; 0px; 0px; 40px; 30px; 10px; 0px; 50px"
+
+                          keytimes = "0; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1"
+
+                          repeatcount = "indefinite" />
+                      </femerge>
+                    <femerge x="0" width="100%" y="60px" height="65px" result="merge2">
+                      <femergenode in = "black" />
+                      <femergenode in = "comp2" />
+                      <femergenode in = "off2b" />
+
+                      <animate attributeName="y"
+                          id = "y"
+                          dur ="4s"
+                          values = "103px; 104px; 69px; 53px; 42px; 104px; 78px; 89px; 96px; 100px; 67px; 50px; 96px; 66px; 88px; 42px; 13px; 100px; 100px; 104px;""
+
+                          keytimes = "0; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513; 0.548; 0.577; 0.613; 1"
+
+                        repeatcount="indefinite"/>
+                        <animate attributename="height"
+                          id = "h"
+                          dur = "4s"
+
+                        values = "0px; 0px; 0px; 16px; 16px; 12px; 12px; 0px; 0px; 5px; 10px; 22px; 33px; 11px; 0px; 0px; 10px"
+
+                          keytimes = "0; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513;  1"
+
+                          repeatcount="indefinite"/>
+                      </femerge>
+
+                    <femerge>
+                      <femergenode in="SourceGraphic" />
+
+                      <femergenode in="merge1" />
+                    <femergenode in="merge2" />
+
+                  </femerge>
+                    </filter>
+
+                </defs>
+
+              <g>
+                <text x="0" y="100">WHOAMI?</text>
+              </g>
+              </svg>
+                <h2 class="cd-headline clip is-full-width">
+                    <span class="cd-words-wrapper wow zoomIn" data-wow-delay="2.5s" animation-duration="1s" data-wow-iteration="1">
+                        <b class="is-visible">a junior Web Developer!</b>
+                        <b>a junior Web Designer!</b>
+                        <b>a Good guy!</b>
+                    </span>
+                </h2>
+                <div class="buttons wow fadeInUp" animation-duration="1.5s" data-wow-delay="3.5s" data-wow-iteration="1">
+                  <ul class="cont">
+                      <a href="https://www.facebook.com/sandi.koren" target="_blank"><li class="one-button">
+                        <i class="fa fa-facebook fa-2x"></i>
+                      </li></a>
+                      <li class="one-button">
+                        <a href="https://www.instagram.com/sandi.koren/?hl=en" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+                      </li>
+                  </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    </section>
+
+    <section id="second-section">
+      <div class="container">
+        <div class="row">
+          <h1 class="wow fadeInDown" data-wow-duration="1.8s" data-wow-offset="200">ABOUT ME</h1>
+          <div class="col-xs-12">
+            <div class="img-circle">
+                <img class="img-circle" src="./images/portugal.jpg" alt="Picture of me" />
+            </div>
+            <p class="about-text wow zoomIn" animation-duration="1.5s" data-wow-delay="" data-wow-offset="200">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <p class="about-text2 wow zoomIn" animation-duration="1.5s" data-wow-delay=".3s" data-wow-offset="200">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="third-section">
+      <div class="container skills">
+        <div class="row">
+            <div class="col-md-6 wow slideInLeft" animation-duration="1.5s" data-wow-offset="200">
+                <h1>My <span>Skills</span> &amp; Values</h1>
+                <p>
+                    Here are some of my skills. I have a pretty good knowledge of Javascript (Vanilla JS, Jquery, Node, Express, MongoDB), and HTML5 with CSS3 (Bootstrap).
+                </p>
+                <p>If today were the last day of your life, would you want to do what you are about to do today?</p>
+                <h6>— Steve Jobs </h6>
+            </div>
+            <div class="col-md-6 wow slideInRight" animation-duration="1.5s" data-wow-offset="200">
+                <div data-percent="90%" class="skillbar">
+                    <h6 class="skillbar-title">Html5</h6>
+                    <div class="skill-bar-percent"><span>90</span>%</div>
+                    <div class="skillbar-bar">
+                        <div class="skillbar-bar-child"></div>
+                    </div>
+                </div>
+                <div data-percent="90%" class="skillbar">
+                    <h6 class="skillbar-title">Css3</h6>
+                    <div class="skill-bar-percent"><span>90</span>%</div>
+                    <div class="skillbar-bar">
+                        <div class="skillbar-bar-child"></div>
+                    </div>
+                </div>
+                <div data-percent="80%" class="skillbar">
+                    <h6 class="skillbar-title">Javascript</h6>
+                    <div class="skill-bar-percent"><span >80</span>%</div>
+                    <div class="skillbar-bar">
+                        <div class="skillbar-bar-child"></div>
+                    </div>
+                </div>
+                <div data-percent="80%" class="skillbar">
+                    <h6 class="skillbar-title">Jquery</h6>
+                    <div class="skill-bar-percent"><span >80</span>%</div>
+                    <div class="skillbar-bar">
+                        <div class="skillbar-bar-child"></div>
+                    </div>
+                </div>
+                <div data-percent="50%" class="skillbar">
+                    <h6 class="skillbar-title">Php</h6>
+                    <div class="skill-bar-percent"><span >50</span>%</div>
+                    <div class="skillbar-bar">
+                        <div class="skillbar-bar-child"></div>
+                    </div>
+                </div>
+                <div data-percent="70%" class="skillbar">
+                    <h6 class="skillbar-title">Databases</h6>
+                    <div class="skill-bar-percent"><span>70</span>%</div>
+                    <div class="skillbar-bar">
+                        <div class="skillbar-bar-child"></div>
+                    </div>
+                </div>
+                <div data-percent="100%" class="skillbar">
+                    <h6 class="skillbar-title">Googling</h6>
+                    <div class="skill-bar-percent"><span>100</span>%</div>
+                    <div class="skillbar-bar">
+                        <div class="skillbar-bar-child"></div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section id="fourth-section">
+      <div class="container-fluid footer">
+        <div class="row">
+          <div class="col-xs-12 padding">
+            <h1 class="text-center">CONTACT ME</h1>
+            <hr class="style-two">
+            <div class="container-fluid contact text-center">
+                <p class="footer-text">
+                    Let's have fun together! Are you interested in a collaboration, <br /> or do you just want to come by and say hello?
+                </p>
+                <a href="mailto:sandi.koren1@gmail.com?" target="_blank" class="btn btn-danger">contact</a>
+                <div class="container-fluid buttons-footer wow fadeInUp" animation-duration="1.5s" data-wow-iteration="1">
+                  <ul class="cont">
+                      <a href="https://www.facebook.com/sandi.koren" target="_blank"><li class="one-button">
+                        <i class="fa fa-github fa-2x"></i>
+                      </li></a>
+                      <li class="one-button">
+                        <a href="https://www.instagram.com/sandi.koren/?hl=en" target="_blank"><i class="fa fa-file-pdf-o fa-2x"></i></a>
+                      </li>
+                  </ul>
+                </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <div id="back-to-top">
+          <a href="#" onclick="$('#first-section').animatescroll({scrollSpeed:2500,easing:'easeOutBack', padding:30});"><div class="bttn bttn-blob">&#x21E7;</div></a>
+      </div>
+    </section>
+
+</div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/animated-text.js"></script>
+    <script src="./js/wow-min.js"></script>
+    <script src="./js/jquery.stellar.min.js"></script>
+    <script src="./js/animatescroll.min.js"></script>
+    <script src="./js/jquery.waypoints.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
