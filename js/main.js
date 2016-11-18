@@ -31,7 +31,7 @@ var waypoint = new Waypoint({
        },8000);
      });
     });
-  }
+  }, offset: 100
 })
 
 /*------------------------------------------------------------------*/
@@ -66,4 +66,15 @@ $(window).scroll(function() {
   if($(window).scrollTop() + $(window).height() == $(document).height()) {
       $('.bttn-blob').toggleClass("blob");
   }
+});
+
+/*------------------------------------------------------------------*/
+/* TYPING ABOUT */
+/*------------------------------------------------------------------*/
+
+$('.about-text').typeIt({
+     speed: 30,
+     autoStart: false,
+     cursor:false,
+     lifeLike:false
 });

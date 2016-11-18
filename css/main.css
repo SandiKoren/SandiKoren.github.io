@@ -93,6 +93,7 @@ h6 {
   .navbar-default.affix {
     padding: 5px 0;
     background-color: #10131a;
+
     /* Add additional styles here for the COLLAPSED state */
   }
 }
@@ -116,7 +117,6 @@ h6 {
 
 }
 #mainNav .container .navbar-header a:hover{
-  opacity: .8;
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -ms-transform:scale(1.1);
@@ -134,12 +134,12 @@ h6 {
     color: white;
     text-transform: uppercase;
 
-     transition: 0.5s ease;
+     transition:  ease;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
   color: #ffF;
   background-color: transparent;
-  border-bottom: 1px solid #66fcf1;
+  border-bottom: 2px solid #66fcf1;
   padding-left: 1px;
   padding-right: 1px;
   padding: 10px 4px;
@@ -157,7 +157,11 @@ h6 {
     position: relative;
     display: block;
     padding: 15px 15px;
+    font-family: 'Roboto Slab', serif;
+
 }
+
+
 /*------------------------------------------------------------------*/
 /* FIRST SECTION
 /*------------------------------------------------------------------*/
@@ -254,8 +258,14 @@ h6 {
   background-size: cover;
   width: 100%;
   text-align: center;
+
 }
-#second-section .container{
+#second-section .about-me{
+  margin-bottom: 90px;
+  margin-top: 90px;
+  background: #fff;
+  height: 1200px;
+  border: 1px solid black;
 }
 
 .img-circle{
@@ -278,21 +288,32 @@ h6 {
 .about-text{
   text-align: center;
   padding-top: 50px;
-  padding-left: 25%;
-  padding-right: 25%;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-family: 'Libre Baskerville', serif;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 1.5;
 }
-.about-text2{
-  text-align: center;
-  padding-left: 25%;
-  padding-right: 25%;
-  padding-bottom: 50px;
-  margin-top: 2em;
+.me-text{
+  color:#66fcf1;
+}
 
+#about-blue{
+  color:#66fcf1;
+  font-size: 18px;
+  font-weight: bold;
 }
 #second-section h1{
   font-size: 2em;
-  padding: 60px 0;
+  padding: 50px 0;
 }
+
+.about-me
+{
+  	  box-shadow: 10px -10px 5px rgba(0,0,0,0.4); -moz-box-shadow: 10px -10px 5px rgba(0,0,0,0.4); -webkit-box-shadow: 10px -10px 5px rgba(0,0,0,0.4); -o-box-shadow: 10px -10px 5px rgba(0,0,0,0.4);
+    }
+
 /*------------------------------------------------------------------*/
 /* THIRD SECTION SKILLBAR */
 /*------------------------------------------------------------------*/
@@ -303,7 +324,7 @@ h6 {
   width: 100%;
 }
 .skills{
-  padding: 60px 0;
+  padding: 150px 0;
 
 }
 .skillbar {
@@ -349,11 +370,23 @@ h6 {
 #third-section h1 span{
   color:#66fcf1;
 }
+#third-section .col-md-6{
+  font-family: 'Libre Baskerville', serif;
+}
+.skill-text{
+  margin: 20px;
+}
+
 
 
 /*------------------------------------------------------------------*/
 /* FOURTH SECTION FOOTER */
 /*------------------------------------------------------------------*/
+#fourth-section .row{
+  margin-left:0;
+  margin-right: 0;
+}
+
 #fourth-section{
   position: relative;
   background-color: #10131a;
@@ -370,7 +403,7 @@ h6 {
 }
 
 #fourth-section .padding{
-  padding-top: 150px;
+  padding-top: 250px;
 }
 
 .footer-text{
