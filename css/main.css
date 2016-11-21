@@ -445,7 +445,9 @@ h6 {
 height: 419px;
   width: 100%;
   color: #B0A377;
-
+  border: 1px solid #9999A2;
+  border-bottom: none;
+  border-right: none;
 }
 
 #background2{
@@ -453,7 +455,9 @@ height: 419px;
 height: 419px;
   width: 100%;
   color: #B0A377;
-
+border: 1px solid #9999A2;
+border-bottom: none;
+border-right: none;
 
 }
 #background3{
@@ -461,28 +465,33 @@ height: 419px;
   width: 100%;
   color: #B0A377;
   height: 419px;
-
+border: 1px solid #9999A2;
+border-bottom: none;
+border-right: none;
 }
 #background4{
 
 height: 419px;
   width: 100%;
   color: #B0A377;
-
+border: 1px solid #9999A2;
+border-right: none;
 }
 #background5{
 
 height: 419px;
   width: 100%;
   color: #B0A377;
-
+border: 1px solid #9999A2;
+border-right: none;
 }
 #background6{
 
   height: 419px;
   width: 100%;
   color: #B0A377;
-
+border: 1px solid #9999A2;
+border-right: none;
 }
 .skillsection{
 
