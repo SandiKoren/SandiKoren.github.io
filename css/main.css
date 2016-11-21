@@ -502,6 +502,8 @@ border-bottom: none;
   background-position: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 #third-section .row{
   margin-left: 0;
