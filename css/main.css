@@ -379,8 +379,8 @@ h6 {
   position: relative;
   font-size: 17px;
   padding: 10px;
-  background: #B0A377;
-  opacity: 0.6;
+  background: #191a1a;
+  opacity: 1;
   -webkit-transform: translateY(-200px);
   -ms-transform: translateY(-200px);
   transform: translateY(-200px);
@@ -435,7 +435,7 @@ margin-right: 20px;
 
 height: 419px;
   width: 100%;
-  color: #fff;
+  color: #191a1a;
   border: 1px solid #000;
   border-bottom: none;
   border-right: none;
@@ -446,7 +446,7 @@ height: 419px;
 
 height: 419px;
   width: 100%;
-  color: #fff;
+  color: #191a1a;
 border: 1px solid #000;
 border-bottom: none;
 border-right: none;
@@ -456,7 +456,7 @@ border-top: none;
 #background3{
 
   width: 100%;
-  color: #fff;
+  color: #191a1a;
   height: 419px;
 border: 1px solid #000;
 border-bottom: none;
@@ -467,7 +467,7 @@ border-top: none;
 
 height: 419px;
   width: 100%;
-  color: #fff;
+  color: #191a1a;
 border: 1px solid #000;
 border-right: none;
 border-bottom: none;
@@ -476,7 +476,7 @@ border-bottom: none;
 
 height: 419px;
   width: 100%;
-  color: #fff;
+  color: #191a1a;
 border: 1px solid #000;
 border-right: none;
 border-bottom: none;
@@ -485,7 +485,7 @@ border-bottom: none;
 
   height: 419px;
   width: 100%;
-  color: #fff;
+  color: #191a1a;
 border: 1px solid #000;
 border-right: none;
 border-bottom: none;
@@ -537,7 +537,7 @@ border-bottom: none;
   padding-top: 50px;
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
-  color: #fff;
+  color: #191a1a;
 
 }
 
