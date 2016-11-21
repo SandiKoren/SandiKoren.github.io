@@ -435,7 +435,7 @@ margin-right: 20px;
 
 height: 419px;
   width: 100%;
-  color: #B0A377;
+  color: #000;
   border: 1px solid #ccc;
   border-bottom: none;
   border-right: none;
@@ -446,7 +446,7 @@ height: 419px;
 
 height: 419px;
   width: 100%;
-  color: #B0A377;
+  color: #000;
 border: 1px solid #ccc;
 border-bottom: none;
 border-right: none;
@@ -456,7 +456,7 @@ border-top: none;
 #background3{
 
   width: 100%;
-  color: #B0A377;
+  color: #000;
   height: 419px;
 border: 1px solid #ccc;
 border-bottom: none;
@@ -467,7 +467,7 @@ border-top: none;
 
 height: 419px;
   width: 100%;
-  color: #B0A377;
+  color: #000;
 border: 1px solid #ccc;
 border-right: none;
 border-bottom: none;
@@ -476,7 +476,7 @@ border-bottom: none;
 
 height: 419px;
   width: 100%;
-  color: #B0A377;
+  color: #000;
 border: 1px solid #ccc;
 border-right: none;
 border-bottom: none;
@@ -485,7 +485,7 @@ border-bottom: none;
 
   height: 419px;
   width: 100%;
-  color: #B0A377;
+  color: #000;
 border: 1px solid #ccc;
 border-right: none;
 border-bottom: none;
