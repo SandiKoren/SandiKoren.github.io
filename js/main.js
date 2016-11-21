@@ -21,18 +21,6 @@ $('.collapse').collapse('hide');
 
 
 
-var waypoint = new Waypoint({
-  element: document.getElementById('third-section'),
-  handler: function() {
-    jQuery("document").ready(function(){
-     jQuery('.skillbar').each(function(){
-       jQuery(this).find('.skillbar-bar-child').animate({
-         width:jQuery(this).attr('data-percent')
-       },8000);
-     });
-    });
-  }, offset: 100
-})
 
 /*------------------------------------------------------------------*/
 /* COUNTER */
@@ -64,17 +52,10 @@ $(document).ready(function() {
 
 $(window).scroll(function() {
   if($(window).scrollTop() + $(window).height() == $(document).height()) {
-      $('.bttn-blob').toggleClass("blob");
+      $('.bttn-blob').addClass("blob");
   }
 });
 
-/*------------------------------------------------------------------*/
-/* TYPING ABOUT */
-/*------------------------------------------------------------------*/
-
-$('.about-text').typeIt({
-     speed: 30,
-     autoStart: false,
-     cursor:false,
-     lifeLike:false
+$(function() {
+  $('#visible').addClass('buttonsv');
 });
