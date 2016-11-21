@@ -435,7 +435,7 @@ margin-right: 20px;
 
 height: 419px;
   width: 100%;
-  color: #000;
+  color: #fff;
   border: 1px solid #000;
   border-bottom: none;
   border-right: none;
@@ -446,7 +446,7 @@ height: 419px;
 
 height: 419px;
   width: 100%;
-  color: #000;
+  color: #fff;
 border: 1px solid #000;
 border-bottom: none;
 border-right: none;
@@ -456,7 +456,7 @@ border-top: none;
 #background3{
 
   width: 100%;
-  color: #000;
+  color: #fff;
   height: 419px;
 border: 1px solid #000;
 border-bottom: none;
@@ -467,7 +467,7 @@ border-top: none;
 
 height: 419px;
   width: 100%;
-  color: #000;
+  color: #fff;
 border: 1px solid #000;
 border-right: none;
 border-bottom: none;
@@ -476,7 +476,7 @@ border-bottom: none;
 
 height: 419px;
   width: 100%;
-  color: #000;
+  color: #fff;
 border: 1px solid #000;
 border-right: none;
 border-bottom: none;
@@ -485,7 +485,7 @@ border-bottom: none;
 
   height: 419px;
   width: 100%;
-  color: #000;
+  color: #fff;
 border: 1px solid #000;
 border-right: none;
 border-bottom: none;
@@ -498,7 +498,7 @@ border-bottom: none;
 }
 
 .picture{
-  background:url("../images/puzzle.jpg") center center;
+  background:url("../images/puzzle3.jpg") center center;
   background-position: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -525,6 +525,7 @@ border-bottom: none;
 .aboutskills{
   text-align: center;
   height: 838px;
+
 }
 .beforetext{
   font-size: 18px;
@@ -536,6 +537,7 @@ border-bottom: none;
   padding-top: 50px;
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
+  color: #fff;
 
 }
 
