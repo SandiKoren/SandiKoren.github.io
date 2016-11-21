@@ -21,7 +21,7 @@ h1{
   font-size: 2em;
   font-weight: 700;
   letter-spacing: 3px;
-  text-transform: uppercase;
+
   color: #000;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
@@ -39,7 +39,7 @@ h6 {
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 3px;
-    text-transform: uppercase;
+
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     margin-top: 0;
@@ -311,21 +311,7 @@ h6 {
   -o-transform:scale(1.1);
   transform: scale(1.1);
 }
-.about-text{
-  text-align: center;
-  padding-top: 50px;
-  padding-left: 15%;
-  padding-right: 15%;
-  font-family: 'Libre Baskerville', serif;
-  font-style: italic;
-  font-size: 18px;
-  line-height: 1.5;
-  text-align: justify;
-  color:#000;
-}
-.me-text{
-  color:#B0A377;
-}
+
 
 #about-blue{
   color:#B0A377;
@@ -333,13 +319,17 @@ h6 {
   font-weight: bold;
 }
 #second-section h1{
-  font-size: 2em;
+  font-size: 3em;
   padding-top: 50px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+
 }
 
 #second-section .about{
   margin-left: 0;
   margin-right: 0;
+  padding:80px 0;
 }
 
 
@@ -446,7 +436,7 @@ margin-right: 20px;
 height: 419px;
   width: 100%;
   color: #B0A377;
-  border: 1px solid #B0A377;
+  border: 1px solid #ccc;
   border-bottom: none;
   border-right: none;
   border-top: none;
@@ -457,7 +447,7 @@ height: 419px;
 height: 419px;
   width: 100%;
   color: #B0A377;
-border: 1px solid #B0A377;
+border: 1px solid #ccc;
 border-bottom: none;
 border-right: none;
 border-top: none;
@@ -468,7 +458,7 @@ border-top: none;
   width: 100%;
   color: #B0A377;
   height: 419px;
-border: 1px solid #B0A377;
+border: 1px solid #ccc;
 border-bottom: none;
 border-right: none;
 border-top: none;
@@ -478,7 +468,7 @@ border-top: none;
 height: 419px;
   width: 100%;
   color: #B0A377;
-border: 1px solid #B0A377;
+border: 1px solid #ccc;
 border-right: none;
 border-bottom: none;
 }
@@ -487,7 +477,7 @@ border-bottom: none;
 height: 419px;
   width: 100%;
   color: #B0A377;
-border: 1px solid #B0A377;
+border: 1px solid #ccc;
 border-right: none;
 border-bottom: none;
 }
@@ -496,7 +486,7 @@ border-bottom: none;
   height: 419px;
   width: 100%;
   color: #B0A377;
-border: 1px solid #B0A377;
+border: 1px solid #ccc;
 border-right: none;
 border-bottom: none;
 }
@@ -531,13 +521,20 @@ border-bottom: none;
 }
 
 .aboutskills{
-
+  text-align: center;
   height: 838px;
 }
 .beforetext{
   font-size: 18px;
   padding-top: 10px;
   text-align: center;
+}
+#third-section h1{
+  font-size: 3em;
+  padding-top: 50px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+
 }
 
 /*------------------------------------------------------------------*/
