@@ -441,57 +441,61 @@ h6 {
 
 
 #background1{
-  background-color: #f6f6f6;
+
 height: 419px;
   width: 100%;
   color: #B0A377;
-  border: 1px solid #dfdfdf;
-  border-bottom: none;
+
 }
 
 #background2{
-  background-color: #f6f6f6;
+
 height: 419px;
   width: 100%;
   color: #B0A377;
-  visibility:visible;
-  z-index: 1;
-  border: 1px solid #dfdfdf;
-  border-bottom: none;
+
+
 }
 #background3{
-  background-color: #f6f6f6;
+
   width: 100%;
   color: #B0A377;
   height: 419px;
-  border: 1px solid #dfdfdf;
-  border-bottom: none;
+
 }
 #background4{
-  background-color: #f6f6f6;
+
 height: 419px;
   width: 100%;
   color: #B0A377;
-  border: 1px solid #dfdfdf;
+
 }
 #background5{
-  background-color: #f6f6f6;
+
 height: 419px;
   width: 100%;
   color: #B0A377;
-  border: 1px solid #dfdfdf;
+
 }
 #background6{
-  background-color: #f6f6f6;
+
   height: 419px;
   width: 100%;
   color: #B0A377;
-  border: 1px solid #dfdfdf;
+
 }
 .skillsection{
+
   padding-left: 0;
   padding-right: 0;
 
+}
+
+.picture{
+  background:url("../images/puzzle.jpg") center center;
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 #third-section .row{
   margin-left: 0;
@@ -511,7 +515,7 @@ height: 419px;
 }
 
 .aboutskills{
-  background: #f1f1f1;
+
   height: 838px;
 }
 .beforetext{
