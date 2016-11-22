@@ -256,13 +256,7 @@ h6 {
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: -6px;
-
-
-
-
     color: #fff;
-
-
     text-shadow:
       0 -1px 0 #fff,
       0 1px 0 #2e2e2e,
@@ -1031,10 +1025,7 @@ background: linear-gradient(rgba(14,14,14,1) 0%, rgba(125,126,125,1) 100%); /* F
 .beforeicon{
   padding-top: 110px;
 }
-.beforetext{
-  color: #191a1a;
 
-}
 #first-section h3{
   font-size: 7em;
 }
