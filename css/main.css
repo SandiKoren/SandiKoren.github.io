@@ -542,6 +542,7 @@ color: #fff;
   font-size: 18px;
   padding-top: 10px;
   text-align: center;
+  font-weight: 700;
 }
 #third-section h1{
   font-size: 3em;
@@ -943,7 +944,7 @@ svg{
   padding-top: 110px;
 }
 .beforetext{
-  font-weight: bold;
+  font-weight: 700;
   color: #191a1a;
 
 }
