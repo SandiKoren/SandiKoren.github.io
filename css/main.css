@@ -533,7 +533,7 @@ border-right: 1px solid #191a1a;
 }
 #background4:hover  .overlay{
 
-  background:rgba(227, 119, 170, 1);
+  background:rgba(91, 229, 207, 1);
 }
 #background5:hover  .overlay{
 
@@ -541,7 +541,8 @@ border-right: 1px solid #191a1a;
 }
 #background6:hover  .overlay{
 
-  background:rgba(91, 229, 207, 1);
+
+  background:rgba(227, 119, 170, 1);
 }
 .skillsection{
 
