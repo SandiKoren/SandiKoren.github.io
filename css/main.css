@@ -411,7 +411,7 @@ h6 {
   -ms-transform: translateY(-200px);
   transform: translateY(-200px);
   color: #000;
-  border: 1px solid #000;
+  border: 1px solid #191a1a;
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
   margin-left: 20px;
@@ -933,10 +933,13 @@ svg{
 }
 #background1, #background2, #background3, #background4, #background5,#background6{
   height: 311px;
+
 }
 .beforeicon{
   padding-top: 110px;
 }
 .beforetext{
   font-weight: bold;
+  color: #fff;
+
 }
