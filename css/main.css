@@ -459,7 +459,7 @@ margin-right: 20px;
 
 height: 419px;
   width: 100%;
-  color: #191a1a;
+  color: rgba(255, 122, 113, 1);
 
   border-bottom: 1px solid #191a1a;
   border-right: 1px solid #191a1a;
@@ -470,7 +470,7 @@ height: 419px;
 
 height: 419px;
   width: 100%;
-  color: #191a1a;
+  color: rgba(143, 215, 136, 1);
 
 border-bottom: 1px solid #191a1a;
 border-right: 1px solid #191a1a;
@@ -482,7 +482,7 @@ border-left: none;
 #background3{
 
   width: 100%;
-  color: #191a1a;
+  color: rgba(3, 187, 199, 1);
   height: 419px;
 border-bottom: 1px solid #191a1a;
 border-left: none;
@@ -493,7 +493,7 @@ border-right: 1px solid #191a1a;
 
 height: 419px;
   width: 100%;
-  color: #191a1a;
+  color: rgba(91, 229, 207, 1);
 
 border-right: 1px solid #191a1a;
 border-bottom: 1px solid #191a1a;
@@ -503,7 +503,7 @@ border-bottom: 1px solid #191a1a;
 
 height: 419px;
   width: 100%;
-  color: #191a1a;
+  color: rgba(245, 244, 136, 1);
   border-left: none;
   border-right: 1px solid #191a1a;
   border-bottom: 1px solid #191a1a;
@@ -513,7 +513,7 @@ height: 419px;
 
   height: 419px;
   width: 100%;
-  color: #191a1a;
+  color: rgba(227, 119, 170, 1);
 border-right: none;
 border-bottom: 1px solid #191a1a;
 border-right: 1px solid #191a1a;
@@ -523,6 +523,7 @@ border-right: 1px solid #191a1a;
 
   background:rgba(255, 122, 113, 1);
 }
+
 #background2:hover  .overlay{
 
   background:rgba(143, 215, 136, 1);
@@ -548,6 +549,7 @@ border-right: 1px solid #191a1a;
 
   padding-left: 0;
   padding-right: 0;
+  background-color: rgba(0, 0, 0, 0.2);
 
 }
 
