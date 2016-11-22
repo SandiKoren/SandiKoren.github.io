@@ -12,7 +12,7 @@
     <title>Portfolio | Sandi Koren</title>
 
     <!-- FONTS -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">
     <link href="./css/font-awesome.min.css" rel="stylesheet">
     <!-- Bootstrap core CSS -->
@@ -45,18 +45,18 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-                <a class="navbar-brand" href="#first-section" onclick="$('#first-section').animatescroll({scrollSpeed:2500,easing:'easeOutBack', padding:50});">sandi<span id="koren">koren</span></a>
+                <a class="navbar-brand" href="#first-section" onclick="$('#first-section').animatescroll({scrollSpeed:2500,easing:'easeInOutExpo', padding:50});">sandi<span id="koren">koren</span></a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="underline active"><a href="#first-section" onclick="$('#first-section').animatescroll({scrollSpeed:2500,easing:'easeOutBack', padding:50});">Home<span class="left"></span></a>
+                    <li class="underline active"><a href="#first-section" onclick="$('#first-section').animatescroll({scrollSpeed:2500,easing:'easeInOutExpo', padding:50});">Home<span class="left"></span></a>
 
                     </li>
-                    <li class="underline"><a href="#second-section" onclick="$('#second-section').animatescroll({scrollSpeed:2500,easing:'easeOutBack', padding:50});">About Me<span class="left"></span><span class="left"></span></a>
+                    <li class="underline"><a href="#second-section" onclick="$('#second-section').animatescroll({scrollSpeed:2500,easing:'easeInOutExpo', padding:50});">About Me<span class="left"></span><span class="left"></span></a>
                     </li>
-                    <li class="underline"><a href="#third-section" onclick="$('#third-section').animatescroll({scrollSpeed:2500,easing:'easeOutBack', padding:25});">Skills<span class="sr-only">(current)</span><span class="left"></span></a>
+                    <li class="underline"><a href="#third-section" onclick="$('#third-section').animatescroll({scrollSpeed:2500,easing:'easeInOutExpo', padding:25});">Skills<span class="sr-only">(current)</span><span class="left"></span></a>
                     </li>
-                    <li class="underline"><a href="#fourth-section" onclick="$('#fourth-section').animatescroll({scrollSpeed:2500,easing:'easeOutBack', padding: -10});">Contact<span class="left"></span></a>
+                    <li class="underline"><a href="#fourth-section" onclick="$('#fourth-section').animatescroll({scrollSpeed:2500,easing:'easeInOutExpo', padding: -10});">Contact<span class="left"></span></a>
                     </li>
                 </ul>
             </div>
@@ -70,99 +70,10 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
-            <div class="first-text text-center wow fadeIn" data-wow-duration="1.8s" data-wow-delay="1.5s" data-wow-iteration="1">
-                  <svg
-                 width="600px" height="100px" viewbox="0 0 600 100">
-              <style type="text/css">
-              <![CDATA[
-                text {
-                  filter: url(#filter);
-                  fill: #B0A377;
-                    font-family: 'Ubuntu', sans-serif;
-                    font-size: 100px;
-                  -webkit-font-smoothing: antialiased;
-                  -moz-osx-font-smoothing: grayscale;
+            <div class="first-text text-center">
+                <h3 class="wow fadeIn" data-wow-duration="1.8s" data-wow-delay="1.5s">WHO<span class="whoami">AM</span>I?</h3>
 
-                      }
-              ]]>
-              </style>
-                <defs>
-                  <filter id="filter">
-                      <feflood flood-color="black" result="black" />
-                      <feflood flood-color="red" result="flood1" />
-                      <feflood flood-color="limegreen" result="flood2" />
-                    <feoffset in="SourceGraphic" dx="3" dy="0" result="off1a"/>
-                    <feoffset in="SourceGraphic" dx="2" dy="0" result="off1b"/>
-                    <feoffset in="SourceGraphic" dx="-3" dy="0" result="off2a"/>
-                    <feoffset in="SourceGraphic" dx="-2" dy="0" result="off2b"/>
-                      <fecomposite in="flood1" in2="off1a" operator="in"  result="comp1" />
-                      <fecomposite in="flood2" in2="off2a" operator="in" result="comp2" />
 
-                      <femerge x="0" width="100%" result="merge1">
-                      <femergenode in = "black" />
-                      <femergenode in = "comp1" />
-                      <femergenode in = "off1b" />
-
-                      <animate
-                        attributename="y"
-                          id = "y"
-                          dur ="4s"
-
-                          values = "104px; 104px; 30px; 105px; 30px; 2px; 2px; 50px; 40px; 105px; 105px; 20px; 6ßpx; 40px; 104px; 40px; 70px; 10px; 30px; 104px; 102px"
-
-                          keytimes = "0; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1"
-
-                          repeatcount = "indefinite" />
-
-                      <animate attributename="height"
-                          id = "h"
-                          dur ="4s"
-
-                          values = "10px; 0px; 10px; 30px; 50px; 0px; 10px; 0px; 0px; 0px; 10px; 50px; 40px; 0px; 0px; 0px; 40px; 30px; 10px; 0px; 50px"
-
-                          keytimes = "0; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1"
-
-                          repeatcount = "indefinite" />
-                      </femerge>
-                    <femerge x="0" width="100%" y="60px" height="65px" result="merge2">
-                      <femergenode in = "black" />
-                      <femergenode in = "comp2" />
-                      <femergenode in = "off2b" />
-
-                      <animate attributeName="y"
-                          id = "y"
-                          dur ="4s"
-                          values = "103px; 104px; 69px; 53px; 42px; 104px; 78px; 89px; 96px; 100px; 67px; 50px; 96px; 66px; 88px; 42px; 13px; 100px; 100px; 104px;""
-
-                          keytimes = "0; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513; 0.548; 0.577; 0.613; 1"
-
-                        repeatcount="indefinite"/>
-                        <animate attributename="height"
-                          id = "h"
-                          dur = "4s"
-
-                        values = "0px; 0px; 0px; 16px; 16px; 12px; 12px; 0px; 0px; 5px; 10px; 22px; 33px; 11px; 0px; 0px; 10px"
-
-                          keytimes = "0; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513;  1"
-
-                          repeatcount="indefinite"/>
-                      </femerge>
-
-                    <femerge>
-                      <femergenode in="SourceGraphic" />
-
-                      <femergenode in="merge1" />
-                    <femergenode in="merge2" />
-
-                  </femerge>
-                    </filter>
-
-                </defs>
-
-              <g>
-                <text x="0" y="100">WHO AM I?</text>
-              </g>
-              </svg>
                 <h2 class="cd-headline clip is-full-width">
                     <span class="cd-words-wrapper wow zoomIn" data-wow-delay="2.5s" animation-duration="1s" data-wow-iteration="1">
                         <b class="is-visible">a junior Web Developer!</b>
@@ -213,7 +124,7 @@
 
 
 <section id="third-section">
-    <div class="container-fluid">
+    <div class="container-fluid margin-left">
         <div class="row skillrow">
             <div class="aboutskills col-xs-12 col-sm-3">
                 <div class="wow wow slideInLeft" data-wow-delay=".2s" data-wow-duration="1s">
@@ -226,6 +137,8 @@
                 </p>
             </div>
             <div class="container-fluid picture" data-stellar-background-ratio="0.5">
+
+
 
 
             <div class="skillsection col-xs-12 col-sm-9">
@@ -256,24 +169,22 @@
                         <div class="hovereffect">
                             <div id="background2">
                               <div class="wow fadeIn" data-wow-delay="0.8s" data-wow-duration=".7s">
-
-
                               <div class="beforeicon">
                                 <i class="fa fa-css3 fa-4x" aria-hidden="true"></i>
                               </div>
                               <div class="beforetext">
                                 <p>
-                                  CSS3
+                                  HTML5
                                 </p>
                               </div>
                               </div>
-                            </div>
                                 <div class="overlay">
-                                    <h2>CSS3</h2>
+                                    <h2>HTML5</h2>
                                     <p class="info">
-                                        My basic knowledge of CSS is pretty good. I usually work with twitter Bootstrap.
+                                        My skills are awesome.
                                     </p>
                                 </div>
+                            </div>
                         </div>
                     </div>
                     <div class="skillsection col-xs-12 col-sm-4">
@@ -366,7 +277,7 @@
                         </div>
                     </div>
                 </div>
-    </div>
+                </div>
             </div>
         </div>
 </section>

@@ -247,12 +247,18 @@ h6 {
 }
 .first-text h3 {
     margin: 10px 0;
-    font-size: 8em;
+    font-size: 9em;
     text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: -10px;
-    text-shadow: 1px 1px 2px #000;
+    font-weight: 900;
+    letter-spacing: -7px;
+
+
+
+    color: #fff;
+	text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+  font-family: 'Roboto', serif;
 }
+
 .first-text .whoami{
   color:#B0A377;
 }
@@ -350,6 +356,8 @@ h6 {
   position: relative;
   text-align: center;
   cursor: default;
+
+
 }
 
 .hovereffect .overlay {
@@ -365,8 +373,12 @@ h6 {
   -webkit-transition: all .5s ease-out 0.1s;
   transition: all .5s ease-out 0.1s;
   z-index: 50;
-  border-left: 1px solid #191a1a;
+  border-right: 1px solid #191a1a;
+  border-bottom: 1px solid #191a1a;
+
 }
+
+
 
 .hovereffect:hover .overlay {
   opacity: 1;
@@ -375,8 +387,10 @@ h6 {
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
   z-index: 50;
-  border-bottom: 1px solid #191a1a;
+  background: #fff;
+
 }
+
 
 
 .hovereffect h2 {
@@ -438,14 +452,17 @@ margin-right: 20px;
 }
 
 
+
+
+
 #background1{
 
 height: 419px;
   width: 100%;
   color: #191a1a;
-  border: 1px solid #191a1a;
-  border-bottom: none;
-  border-right: none;
+
+  border-bottom: 1px solid #191a1a;
+  border-right: 1px solid #191a1a;
   border-top: 1px solid #191a1a;
 }
 
@@ -454,10 +471,12 @@ height: 419px;
 height: 419px;
   width: 100%;
   color: #191a1a;
-border: 1px solid #191a1a;
-border-bottom: none;
-border-right: none;
+
+border-bottom: 1px solid #191a1a;
+border-right: 1px solid #191a1a;
 border-top: 1px solid #191a1a;
+border-left: none;
+
 
 }
 #background3{
@@ -465,37 +484,64 @@ border-top: 1px solid #191a1a;
   width: 100%;
   color: #191a1a;
   height: 419px;
-border: 1px solid #191a1a;
-border-bottom: none;
-border-right: none;
+border-bottom: 1px solid #191a1a;
+border-left: none;
 border-top: 1px solid #191a1a;
+border-right: 1px solid #191a1a;
 }
 #background4{
 
 height: 419px;
   width: 100%;
   color: #191a1a;
-border: 1px solid #191a1a;
-border-right: none;
+
+border-right: 1px solid #191a1a;
 border-bottom: 1px solid #191a1a;
+
 }
 #background5{
 
 height: 419px;
   width: 100%;
   color: #191a1a;
-border: 1px solid #191a1a;
-border-right: none;
-border-bottom: 1px solid #191a1a;
+  border-left: none;
+  border-right: 1px solid #191a1a;
+  border-bottom: 1px solid #191a1a;
+
 }
 #background6{
 
   height: 419px;
   width: 100%;
   color: #191a1a;
-border: 1px solid #191a1a;
 border-right: none;
 border-bottom: 1px solid #191a1a;
+border-right: 1px solid #191a1a;
+
+}
+#background1:hover  .overlay{
+
+  background:rgba(255, 122, 113, 1);
+}
+#background2:hover  .overlay{
+
+  background:rgba(143, 215, 136, 1);
+}
+#background3:hover  .overlay{
+
+  background:rgba(3, 187, 199, 1);
+}
+#background4:hover  .overlay{
+
+  background:rgba(227, 119, 170, 1);
+}
+#background5:hover  .overlay{
+
+  background:rgba(245, 244, 136, 1);
+}
+#background6:hover  .overlay{
+
+  background:rgba(91, 229, 207, 1);
 }
 .skillsection{
 
@@ -523,10 +569,7 @@ border-bottom: 1px solid #191a1a;
   padding: 80px 0;
 }
 
-.beforeicon {
-    padding-top: 180px;
-    padding-right: 20px;
-}
+
 
 .aboutskills{
   text-align: center;
@@ -538,12 +581,24 @@ border-top: 1px solid #191a1a;
 color: #fff;
 
 }
+.beforeicon {
+    padding-top: 180px;
+    padding-right: 20px;
+    z-index: -1;
+
+}
+
 .beforetext{
   font-size: 18px;
   padding-top: 10px;
   text-align: center;
   font-weight: 700;
+  z-index: -1;
+
 }
+
+
+
 #third-section h1{
   font-size: 3em;
   padding-top: 50px;
@@ -552,6 +607,16 @@ color: #fff;
   color: #fff;
 
 }
+#third-section .margin-left{
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+#third-section{
+  background-color: #fff;
+}
+
+
 
 /*------------------------------------------------------------------*/
 /* FOURTH SECTION FOOTER */
@@ -864,22 +929,7 @@ background: linear-gradient(rgba(14,14,14,1) 0%, rgba(125,126,125,1) 100%); /* F
 /*------------------------------------------------------------------*/
 /* FIRST PAGE WHO AM I */
 /*------------------------------------------------------------------*/
-svg{
-  width: 100%;
-  height: 120px;
-  display: block;
-  position: relative;
-  overflow: hidden;
-  margin: 0 auto;
-  background: transparent;
-  margin: 0 auto;
-  font-size: 8em;
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: -10px;
-  padding-left: 19%;
-    margin-bottom: 20px;
-}
+
 
 /*------------------------------------------------------------------*/
 /* BUTTON FOOTER PAGE */
@@ -944,7 +994,6 @@ svg{
   padding-top: 110px;
 }
 .beforetext{
-  font-weight: 700;
   color: #191a1a;
 
 }
