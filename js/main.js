@@ -5,8 +5,6 @@ $('#mainNav').affix({
   }
 })
 
-
-
 /*------------------------------------------------------------------*/
 /* NAVBAR COLLAPSE FIX*/
 /*------------------------------------------------------------------*/
@@ -30,20 +28,36 @@ new WOW().init();
 /*------------------------------------------------------------------*/
 /* BUTTON BLOOB */
 /*------------------------------------------------------------------*/
+jQuery(document).ready(function() {
 
-$(document).ready(function() {
-  $('.bttn-blob').click(function() {
-    $(this).toggleClass('blob');
-  });
+var offset = 250;
+
+var duration = 300;
+
+jQuery(window).scroll(function() {
+
+if (jQuery(this).scrollTop() > offset) {
+
+jQuery(".back-to-top").fadeIn(duration);
+
+} else {
+
+jQuery(".back-to-top").fadeOut(duration);
+
+}
+
 });
 
 
-$(window).scroll(function() {
-  if($(window).scrollTop() + $(window).height() == $(document).height()) {
-      $('.bttn-blob').addClass("blob");
-  }
-});
 
-$(function() {
-  $('#visible').addClass('buttonsv');
+jQuery(".back-to-top").click(function(event) {
+
+event.preventDefault();
+
+jQuery("html, body").animate({scrollTop: 0}, 2000);
+
+return false;
+
+})
+
 });

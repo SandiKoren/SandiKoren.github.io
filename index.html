@@ -13,7 +13,8 @@
 
     <!-- FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
     <link href="./css/font-awesome.min.css" rel="stylesheet">
     <!-- Bootstrap core CSS -->
     <link href="./css/bootstrap.min.css" rel="stylesheet">
@@ -34,6 +35,14 @@
     <div id="preloader">
       <div id="status">&nbsp;</div>
     </div>
+    <a href="#" class="back-to-top" style="display: hidden;">
+
+      <span class="fa-stack fa-lg">
+<i class="fa fa-square fa-stack-2x"></i>
+<i class="fa fa-arrow-up fa-stack-1x fa-inverse"></i>
+</span>
+
+    </a>
 
     <!-- Fixed navbar -->
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
@@ -71,7 +80,7 @@
         <div class="row">
           <div class="col-xs-12">
             <div class="first-text text-center">
-                <h3 class="wow fadeIn" data-wow-duration="1.8s" data-wow-delay="1.5s"><span class="whoami">SANDI</span>KOREN</h3>
+                <h3 class="sk wow fadeIn" data-wow-duration="1.8s" data-wow-delay="1.5s"><span class="whoami">SANDI</span>KOREN</h3>
 
 
                 <h2 class="cd-headline clip is-full-width">
@@ -81,16 +90,7 @@
                         <b>a nice guy!</b>
                     </span>
                 </h2>
-                <div id="visible" class="buttons buttonsv wow fadeInUp" animation-duration="1.5s" data-wow-delay="3.5s" data-wow-iteration="1">
-                  <ul class="cont">
-                      <a href="https://www.facebook.com/sandi.koren" target="_blank"><li class="one-button">
-                        <i class="fa fa-facebook fa-2x"></i>
-                      </li></a>
-                      <li class="one-button">
-                        <a href="https://www.instagram.com/sandi.koren/?hl=en" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
-                      </li>
-                  </ul>
-                </div>
+                <a href="#fourth-section" class="button-top btn btn-danger wow fadeInUp" animation-duration="1.5s" data-wow-delay="3.5s" data-wow-iteration="1"  onclick="$('#fourth-section').animatescroll({scrollSpeed:2500,easing:'easeInOutExpo', padding: -25});">contact</a>
             </div>
           </div>
         </div>
@@ -127,11 +127,11 @@
     <div class="container-fluid margin-left">
         <div class="row skillrow">
             <div class="aboutskills col-xs-12 col-sm-3">
-                <div class="wow wow slideInLeft" data-wow-delay=".2s" data-wow-duration="1s">
+                <div class="wow wow zoomIn" data-wow-delay=".2s" data-wow-duration="1s">
                     <h1>My Skills</h1>
-                    <hr class="style-two wow slideInLeft" data-wow-delay=".2s" data-wow-duration="1s"/>
+                    <hr class="style-two wow zoomIn" data-wow-delay=".2s" data-wow-duration="1s"/>
                 </div>
-                <p class="wow slideInLeft" data-wow-delay=".3s" data-wow-duration="1s">
+                <p class="wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1.2s">
 
                   I like turtles and pancakes!
                 </p>
@@ -174,12 +174,12 @@
                               </div>
                               <div class="beforetext">
                                 <p>
-                                  HTML5
+                                  CSS3
                                 </p>
                               </div>
                               </div>
                                 <div class="overlay">
-                                    <h2>HTML5</h2>
+                                    <h2>CSS3</h2>
                                     <p class="info">
                                         My skills are awesome.
                                     </p>
@@ -293,7 +293,7 @@
                     Let's have fun together! If you want to know more about my projects,<br /> feel free to check my GITHUB, or send me a message.
                 </p>
 
-                <a href="mailto:sandi.koren1@gmail.com?" target="_blank" class="btn btn-danger">contact</a>
+                <a href="mailto:sandi.koren1@gmail.com?" target="_blank" class="btn btn-danger bottom">contact</a>
                 <div class="container-fluid buttons-footer wow fadeInUp" animation-duration="1.5s" data-wow-iteration="1">
                   <ul class="cont">
                       <a href="https://www.facebook.com/sandi.koren" target="_blank"><li class="one-button">
@@ -301,6 +301,10 @@
                       </li></a>
                       <li class="one-button">
                         <a href="https://www.instagram.com/sandi.koren/?hl=en" target="_blank"><i class="fa fa-file-pdf-o fa-2x"></i></a>
+                      </li><li class="one-button">
+                        <a href="https://www.instagram.com/sandi.koren/?hl=en" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+                      </li><li class="one-button">
+                        <a href="https://www.instagram.com/sandi.koren/?hl=en" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
                       </li>
                   </ul>
                 </div>
@@ -309,9 +313,6 @@
 
         </div>
 
-      </div>
-      <div id="back-to-top">
-          <a href="#" onclick="$('#first-section').animatescroll({scrollSpeed:2500,easing:'easeOutBack', padding:30});"><div class="bttn bttn-blob">&#x21E7;</div></a>
       </div>
 
     </section>
