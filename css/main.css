@@ -118,6 +118,10 @@ h6 {
   color:#191a1a;
   text-transform: uppercase;
   letter-spacing: -1px;
+
+    -webkit-transition: all .5s ease-in;
+  -moz-transition: all .5s ease-in;
+  -o-transition: all .5s ease-in;
   transition: all .5s ease-in;
   cursor:pointer;
   font-size: 25px;
@@ -169,6 +173,10 @@ h6 {
     height: 2px;
     background: #900;
     transition: all 0.3s;
+      -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
@@ -332,6 +340,10 @@ h6 {
   filter: gray; /* IE6-9 */
   -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
   transition: 2s ease-in-out;
+    -webkit-transition:  2s ease-in-out;
+  -moz-transition:  2s ease-in-out;
+  -o-transition: 2s ease-in-out;
+
 }
 
 .mypicture {
@@ -368,6 +380,8 @@ h6 {
   filter: alpha(opacity=0);
   -webkit-transition: all .5s ease-out 0.1s;
   transition: all .5s ease-out 0.1s;
+  -moz-transition: all .5s ease-out 0.1s;
+  -o-transition: all .5s ease-out 0.1s;
   z-index: 50;
 }
 
@@ -377,6 +391,9 @@ h6 {
   top: 0px;
   -webkit-transition-delay: .3s;
   transition-delay: .3s;
+  -moz-transition-delay: .3s;
+  -o-transition-delay: .3s;
+  
   z-index: 50;
   background: #fff;
 }
@@ -405,6 +422,8 @@ h6 {
   transform: translateY(0px);
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
+  -moz-transition-delay: .2s;
+  -o-transition-delay: .2s;
 }
 
 .hovereffect p.info {
@@ -420,6 +439,8 @@ h6 {
   border: 1px solid #191a1a;
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
+  -moz-transition: all ease-in-out 0.4s;
+  -o-transition: all ease-in-out 0.4s;
   margin-left: 20px;
 margin-right: 20px;
 }
@@ -437,6 +458,9 @@ margin-right: 20px;
   border: 1px solid #000;
   -webkit-transition-delay: 0.4s;
   transition-delay: 0.4s;
+  -moz-transition-delay: 0.4s;
+  -o-transition-delay: 0.4s;
+
 }
 
 #background1{
@@ -792,7 +816,6 @@ hr.style-two {
 	-webkit-transition: all ease 0.3s;
 	-moz-transition: all ease 0.3s;
 	-o-transition: all ease 0.3s;
-	-ms-transition: all ease 0.3s;
 	transition: all ease 0.3s;
 }
 .social-slide:hover{
@@ -808,7 +831,6 @@ hr.style-two {
 	-webkit-transition: all ease 0.3s;
 	-moz-transition: all ease 0.3s;
 	-o-transition: all ease 0.3s;
-	-ms-transition: all ease 0.3s;
 	transition: all ease 0.3s;
 }
 .social-slide1:hover{
@@ -960,7 +982,11 @@ opacity: .9;
   filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
   filter: gray; /* IE6-9 */
   -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
-  transition: 2s ease;
+  
+ 	-webkit-transition: all 2s ease;
+	-moz-transition: all 2s ease;
+	-o-transition: all 2s ease;
+	transition: all 2s ease;
 }
 
 .mypicture {
