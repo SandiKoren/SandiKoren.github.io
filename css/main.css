@@ -352,6 +352,8 @@ h6 {
     -ms-filter: grayscale(100%); 
     -o-filter: grayscale(100%);
      -webkit-backface-visibility: hidden; /* Fix for transition flickering */
+     backface-visibility: hidden;
+     -moz-backface-visibility: hidden;
     filter: gray;
     filter: grayscale(1);
     -webkit-transition:all  2s ease;
