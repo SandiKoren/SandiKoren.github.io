@@ -404,11 +404,11 @@ h6 {
   top: -500px;
   opacity: 0;
   filter: alpha(opacity=0);
-      -webkit-transition: all .2s ease-out 0.1s;
-    -moz-transition: all .2s ease-out 0.1s;
-    -o-transition: all .2s ease-out 0.1s;
-    -ms-transition: all.2s ease-out 0.1s;
-    transition: all .2s ease-out 0.1s;
+      -webkit-transition: all .3s ease-out 0.1s;
+    -moz-transition: all .3s ease-out 0.1s;
+    -o-transition: all .3s ease-out 0.1s;
+    -ms-transition: all.3s ease-out 0.1s;
+    transition: all .3s ease-out 0.1s;
   z-index: 50;
 }
 
