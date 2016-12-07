@@ -11,7 +11,7 @@ jQuery(document).ready(function($){
 		selectionDuration = 500,
 		typeAnimationDelay = selectionDuration + 800,
 		//clip effect
-		revealDuration = 600,
+		revealDuration = 1600,
 		revealAnimationDelay = 1500;
 
 	initHeadline();
