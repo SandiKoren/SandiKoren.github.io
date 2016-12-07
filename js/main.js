@@ -49,7 +49,7 @@ $(document).ready(function(){
  
   $('.mypict').waypoint(function() {
       $('.mypict').addClass('mypicture');
-  }, { offset: '40%' });
+  }, { offset: '30%' });
  
 });
 /*------------------------------------------------------------------*/

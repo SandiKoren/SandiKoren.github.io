@@ -218,9 +218,8 @@ h6 {
 /*------------------------------------------------------------------*/
 
 .first-section{
-  background: url(../images/progr.jpg);
+  background: url(../images/progr2.jpg);
   background-repeat: no-repeat;
-
   background-position: center center;
   background-size: cover;
   -webkit-background-size: cover;
@@ -228,8 +227,6 @@ h6 {
      -o-background-size: cover;
   height: 100%;
   max-width: 100%;
-  
-     
   overflow: hidden;
   text-align: center;
  
@@ -241,15 +238,7 @@ h6 {
   margin: 10px 0;
 }
 
-.first-section:before {
-    background: rgba(0, 0, 0, 0.9);
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    content: "";
-}
+
 .first-table {
     display: table;
     width: 100%;
