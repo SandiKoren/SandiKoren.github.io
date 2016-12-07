@@ -210,7 +210,8 @@ h6 {
 /*------------------------------------------------------------------*/
 
 .first-section{
-  background: url(../images/progr.jpg) no-repeat scroll 0 0 / cover;
+  background: url(../images/progr.jpg) no-repeat;
+  background-size: cover;
   overflow: hidden;
   position: relative;
   height: 100%;
