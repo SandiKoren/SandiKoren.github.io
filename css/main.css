@@ -608,7 +608,7 @@ opacity: 1;
 /* MID SECTION  */
 /*------------------------------------------------------------------*/
 .mid-section{
-  padding: 35px 0;
+  padding-top: 35px;
   text-align: center;
   position: relative;
   background-color: #900;
@@ -623,7 +623,7 @@ opacity: 1;
 }
 
 .mid-section2{
-  padding: 35px 0;
+  padding-top: 35px;
   text-align: center;
   position: relative;
   background-color: #fff;
