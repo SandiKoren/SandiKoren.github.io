@@ -26,38 +26,29 @@ $(window).on('load', function() { // makes sure the whole site is loaded
 /*------------------------------------------------------------------*/
 new WOW().init();
 /*------------------------------------------------------------------*/
-/* BUTTON BLOOB */
+/* RETURN TO TOP */
 /*------------------------------------------------------------------*/
-jQuery(document).ready(function() {
-
-var offset = 250;
-
-var duration = 300;
-
-jQuery(window).scroll(function() {
-
-if (jQuery(this).scrollTop() > offset) {
-
-jQuery(".back-to-top").fadeIn(duration);
-
-} else {
-
-jQuery(".back-to-top").fadeOut(duration);
-
-}
-
+// ===== Scroll to Top ==== 
+$(document).ready(function(){ 
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('#scroll').fadeIn(); 
+        } else { 
+            $('#scroll').fadeOut(); 
+        } 
+    }); 
+    $('#scroll').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
 });
+$(document).ready(function(){
+ 
+  // hide our element on page load
 
-
-
-jQuery(".back-to-top").click(function(event) {
-
-event.preventDefault();
-
-jQuery("html, body").animate({scrollTop: 0}, 2000);
-
-return false;
-
-})
-
+ 
+  $('.mypict').waypoint(function() {
+      $('.mypict').addClass('mypicture');
+  }, { offset: '40%' });
+ 
 });
