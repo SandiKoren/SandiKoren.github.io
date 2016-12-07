@@ -211,14 +211,18 @@ h6 {
 
 .first-section{
   background: url(../images/progr.jpg) no-repeat;
-  background-size: cover;
+  background-position: center;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
   overflow: hidden;
   position: relative;
   height: 100%;
   max-width: 100%;
   text-align: center;
   background-attachment: fixed;
-  -webkit-transform: translateZ(0); 
+
 }
 
 #first-section h2{
