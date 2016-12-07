@@ -217,7 +217,7 @@ h6 {
   max-width: 100%;
   text-align: center;
   background-attachment: fixed;
-
+  -webkit-transform: translateZ(0); 
 }
 
 #first-section h2{
