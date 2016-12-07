@@ -620,6 +620,7 @@ opacity: 1;
    padding-left: 20px;
     padding-right: 20px;
         margin: 0 auto;
+        font-size: 12px;
 }
 
 .mid-section2{
@@ -634,6 +635,7 @@ opacity: 1;
       margin: 0 auto;
   padding-left: 20px;
     padding-right: 20px;
+    font-size: 12px;
 }
 /*------------------------------------------------------------------*/
 /* FOURTH SECTION FOOTER */
