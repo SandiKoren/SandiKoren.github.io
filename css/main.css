@@ -871,7 +871,9 @@ hr.style-two {
   .first-text h3{
     font-size: 8em;
   }
-
+  .first-section{
+    background-attachment: fixed;
+  }
   .cd-headline span{
     font-size: 1.3em;
   }
