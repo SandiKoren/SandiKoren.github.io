@@ -472,7 +472,7 @@ h6 {
   text-align: center;
 
 }
-#second-section .about-me{
+#second-section .about-me1{
   background: #fff;
   padding-top: 30px;
 }
@@ -529,7 +529,7 @@ h6 {
   -webkit-filter: grayscale(0%);
 }
 
-.about-me p{
+.about-me1 p{
   font-size: 10px;
       padding-left: 10%;
     padding-right: 10%;
@@ -1092,10 +1092,13 @@ hr.style-two {
 #second-section h1{
   font-size: 2em;
 }
-#second-section .about-me {
-  padding-top: 70px;
+#second-section .about-me1 {
+  padding-top: 40px;
 }
-.about-me p {
+#second-section .about-me2{
+  padding-top: 10px;
+}
+.about-me1 p {
   font-size: 1.2em;
   margin: 0;
 
@@ -1242,7 +1245,7 @@ opacity: .9;
 /*------------------------------------------------------------------*/
  @media (min-width : 992px) { 
 
-.about-me p{
+.about-me1 p{
   font-size: 1.3em;
 }
 
@@ -1362,7 +1365,7 @@ height: 450px;
 #second-section h1{
   font-size: 2.5em;
 }
-.about-me p{
+.about-me1 p{
   font-size: 1.5em;
 }
 .mid-section p {
