@@ -270,7 +270,18 @@ h6 {
     font-family: 'Oswald', sans-serif;
 
 }
+.cd-headline.clip .cd-words-wrapper::after{
+  background-color: #900;
+  animation: blinker 1s linear infinite;
+  
 
+}
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+.cd-headline.clip span{
+  padding: 0;
+}
 .sk{
   letter-spacing: 0px;
 }
@@ -279,6 +290,7 @@ h6 {
 .cd-headline span {
     font-size: 14px;
 }
+
 
 .cd-headline.clip.is-full-width {
     margin: 0;
