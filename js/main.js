@@ -49,7 +49,7 @@ $(document).ready(function(){
  
   $('.mypict').waypoint(function() {
       $('.mypict').addClass('mypicture');
-  }, { offset: '30%' });
+  }, { offset: '40%' });
  
 });
 /*------------------------------------------------------------------*/
@@ -136,7 +136,7 @@ $("#fourth-section[href^='#']").on('click', function(e) {
 
 });
 /*------------------------------------------------------------------*/
-/* ANIMATED TEXT TO  */
+/* ANIMATED TEXT FIRST PAGE */
 /*------------------------------------------------------------------*/
 jQuery(document).ready(function($){
 	//set animation timing
