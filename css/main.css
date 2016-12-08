@@ -268,15 +268,13 @@ h6 {
     text-transform: uppercase;
     color: #fff;
     font-family: 'Oswald', sans-serif;
-     -webkit-transform: translateZ(0);
-  transform: translateZ(0);
+    -webkit-transform: translateZ(0);
 
 }
 .cd-headline.clip .cd-words-wrapper::after{
   background-color: #900;
   animation: blinker 1s linear infinite;
-    -webkit-transform: translateZ(0);
-  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
 
 }
 @keyframes blinker {  
@@ -312,7 +310,6 @@ h6 {
 .button-top{
   margin-top: 10px;
   -webkit-transform: translateZ(0);
-  transform: translateZ(0);
 }
 
 
