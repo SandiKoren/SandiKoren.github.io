@@ -497,10 +497,14 @@ h6 {
   padding-left: 0px;
   padding-right: 0px;
 }
+#second-section .about-me2{
+  padding-top: 20px;
+}
 
 .mypict{
   height: 300px;
   width: auto;
+  
 }
 
 .mypict{
