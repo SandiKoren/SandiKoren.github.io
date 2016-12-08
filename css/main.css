@@ -546,7 +546,7 @@ h6 {
   overflow: hidden;
   position: relative;
   text-align: center;
-  cursor: default;
+  cursor: pointer;
 }
 
 .hovereffect .overlay {
@@ -735,6 +735,7 @@ opacity: 1;
   min-height: 100px;
 }
 .skillsection{
+  cursor: pointer;
   padding-left: 0;
   padding-right: 0;
   
@@ -1110,7 +1111,7 @@ hr.style-two {
   border-bottom: 1px solid #191a1a;
 }
 .hovereffect p.info{
-  margin: 30px 20px;
+  margin: 20px 20px;
 }
   #background1{
   background-color: transparent;
@@ -1264,7 +1265,9 @@ opacity: .9;
   border-right: 1px solid #191a1a;
   border-bottom: none;
 }
-
+.hovereffect p.info{
+  margin: 30px 20px;
+}
 
 #background1{
 
