@@ -1099,7 +1099,7 @@ hr.style-two {
 }
 
 .social-slide{
-	background-image: url('../images/fb.png');
+	background-image: url('../images/fb-min.png');
 	height: 48px;
 	width: 48px;
 	margin: 10px;
@@ -1116,7 +1116,7 @@ hr.style-two {
 	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
 }
 .social-slide1{
-	background-image: url('../images/ln.png');
+	background-image: url('../images/ln-min.png');
 	height: 48px;
 	width: 48px;
 	margin: 10px;
