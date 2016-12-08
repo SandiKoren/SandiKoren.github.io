@@ -140,9 +140,9 @@ $("#fourth-section[href^='#']").on('click', function(e) {
 /*------------------------------------------------------------------*/
 jQuery(document).ready(function($){
 	//set animation timing
-	var animationDelay = 4800,
+	var animationDelay = 4500,
 		//loading bar effect
-		barAnimationDelay = 3800,
+		barAnimationDelay = 3500,
 		barWaiting = barAnimationDelay - 3000, //3000 is the duration of the transition on the loading bar - set in the scss/css file
 		//letters effect
 		lettersDelay = 50,
