@@ -742,6 +742,9 @@ opacity: 1;
 .skillsection img{
   margin-top: 150px;
 }
+.skillsection .img5{
+  margin-top: 150px;
+}
 .picture{
   background:url("../images/puzzle7.jpg") center center;
   background-position: cover;
@@ -1178,6 +1181,13 @@ opacity: .9;
 .skillsection img{
   margin-top: 110px;
 }
+.beforeicon .img5{
+  max-width: 75px;
+  min-height: 75px;
+}
+.skillsection .img5{
+  margin-top: 110px;
+}
 
 .overlay .info{
   font-size: 1em;
@@ -1242,6 +1252,9 @@ opacity: .9;
   font-size: 1.3em;
 }
 .skillsection img{
+  margin-top: 142px;
+}
+.skillsection .img5{
   margin-top: 142px;
 }
 .overlay .info{
@@ -1326,6 +1339,13 @@ height: 450px;
       max-width: 100px;
     max-height: 100px;
     margin-top: 175px;
+}
+.skillsection .img5{
+  margin-top: 175px;
+}
+.skillsection .img5{
+  max-width: 100px;
+  min-height: 100px;
 }
 .overlay .info{
   font-size: 1.3em;
