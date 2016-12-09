@@ -1,144 +1,150 @@
 // Initialize affix and add an offset to add affix class on scroll
 $('#mainNav').affix({
-  offset: {
-    top: 100
-  }
+	offset: {
+		top: 100
+	}
 })
 
 /*------------------------------------------------------------------*/
 /* NAVBAR COLLAPSE FIX*/
 /*------------------------------------------------------------------*/
-$(document).on('click',function(){
-$('.collapse').collapse('hide');
+$(document).on('click', function () {
+	$('.collapse').collapse('hide');
 });
 
 
 /*------------------------------------------------------------------*/
 /* PRELOADER */
 /*------------------------------------------------------------------*/
-$(window).on('load', function() { // makes sure the whole site is loaded
-    $('#status').fadeOut(); // will first fade out the loading animation
-    $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
-    $('body').delay(350).css({'overflow':'visible'});
-})
-/*------------------------------------------------------------------*/
-/* WOW JS PLUGIN */
-/*------------------------------------------------------------------*/
+$(window).on('load', function () { // makes sure the whole site is loaded
+		$('#status').fadeOut(); // will first fade out the loading animation
+		$('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+		$('body').delay(350).css({
+			'overflow': 'visible'
+		});
+	})
+	/*------------------------------------------------------------------*/
+	/* WOW JS PLUGIN */
+	/*------------------------------------------------------------------*/
 new WOW().init();
 /*------------------------------------------------------------------*/
 /* RETURN TO TOP */
 /*------------------------------------------------------------------*/
 // ===== Scroll to Top ==== 
-$(document).ready(function(){ 
-    $(window).scroll(function(){ 
-        if ($(this).scrollTop() > 100) { 
-            $('#scroll').fadeIn(); 
-        } else { 
-            $('#scroll').fadeOut(); 
-        } 
-    }); 
-    $('#scroll').click(function(){ 
-        $("html, body").animate({ scrollTop: 0 }, 600); 
-        return false; 
-    }); 
+$(document).ready(function () {
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 100) {
+			$('#scroll').fadeIn();
+		} else {
+			$('#scroll').fadeOut();
+		}
+	});
+	$('#scroll').click(function () {
+		$("html, body").animate({
+			scrollTop: 0
+		}, 600);
+		return false;
+	});
 });
-$(document).ready(function(){
- 
-  // hide our element on page load
+$(document).ready(function () {
 
- 
-  $('.mypict').waypoint(function() {
-      $('.mypict').addClass('mypicture');
-  }, { offset: '40%' });
- 
+	// hide our element on page load
+
+
+	$('.mypict').waypoint(function () {
+		$('.mypict').addClass('mypicture');
+	}, {
+		offset: '40%'
+	});
+
 });
 /*------------------------------------------------------------------*/
 /* SCROLL TO  */
 /*------------------------------------------------------------------*/
-$(".navbar-collapse ul li a[href^='#']").on('click', function(e) {
+$(".navbar-collapse ul li a[href^='#']").on('click', function (e) {
 
-   // prevent default anchor click behavior
-   e.preventDefault();
+	// prevent default anchor click behavior
+	e.preventDefault();
 
-   // store hash
-   var hash = this.hash;
+	// store hash
+	var hash = this.hash;
 
-   // animate
-   $('html, body').animate({
-       scrollTop: $(hash).offset().top -50
-     }, 600, function(){
+	// animate
+	$('html, body').animate({
+		scrollTop: $(hash).offset().top - 50
+	}, 600, function () {
 
-       // when done, add hash to url
-       // (default click behaviour)
-       window.location.hash = hash;
-     });
-
-});
-
-$("a.navbar-brand[href^='#']").on('click', function(e) {
-
-   // prevent default anchor click behavior
-   e.preventDefault();
-
-   // store hash
-   var hash = this.hash;
-
-   // animate
-   $('html, body').animate({
-       scrollTop: $(hash).offset().top -50
-     }, 600, function(){
-
-       // when done, add hash to url
-       // (default click behaviour)
-       window.location.hash = hash;
-     });
+		// when done, add hash to url
+		// (default click behaviour)
+		window.location.hash = hash;
+	});
 
 });
 
-$("#third-section[href^='#']").on('click', function(e) {
+$("a.navbar-brand[href^='#']").on('click', function (e) {
 
-   // prevent default anchor click behavior
-   e.preventDefault();
+	// prevent default anchor click behavior
+	e.preventDefault();
 
-   // store hash
-   var hash = this.hash;
+	// store hash
+	var hash = this.hash;
 
-   // animate
-   $('html, body').animate({
-       scrollTop: $(hash).offset().top -25
-     }, 600, function(){
+	// animate
+	$('html, body').animate({
+		scrollTop: $(hash).offset().top - 50
+	}, 600, function () {
 
-       // when done, add hash to url
-       // (default click behaviour)
-       window.location.hash = hash;
-     });
+		// when done, add hash to url
+		// (default click behaviour)
+		window.location.hash = hash;
+	});
+
+});
+
+$("#third-section[href^='#']").on('click', function (e) {
+
+	// prevent default anchor click behavior
+	e.preventDefault();
+
+	// store hash
+	var hash = this.hash;
+
+	// animate
+	$('html, body').animate({
+		scrollTop: $(hash).offset().top - 25
+	}, 600, function () {
+
+		// when done, add hash to url
+		// (default click behaviour)
+		window.location.hash = hash;
+	});
 
 });
 
 
-$("#fourth-section[href^='#']").on('click', function(e) {
+$("#fourth-section[href^='#']").on('click', function (e) {
 
-   // prevent default anchor click behavior
-   e.preventDefault();
+	// prevent default anchor click behavior
+	e.preventDefault();
 
-   // store hash
-   var hash = this.hash;
+	// store hash
+	var hash = this.hash;
 
-   // animate
-   $('html, body').animate({
-       scrollTop: $(hash).offset().top -70
-     }, 600, function(){
+	// animate
+	$('html, body').animate({
+		scrollTop: $(hash).offset().top - 70
+	}, 600, function () {
 
-       // when done, add hash to url
-       // (default click behaviour)
-       window.location.hash = hash;
-     });
+		// when done, add hash to url
+		// (default click behaviour)
+		window.location.hash = hash;
+	});
 
 });
 /*------------------------------------------------------------------*/
 /* ANIMATED TEXT FIRST PAGE */
 /*------------------------------------------------------------------*/
-jQuery(document).ready(function($){
+jQuery(document).ready(function ($) {
 	//set animation timing
 	var animationDelay = 4500,
 		//loading bar effect
@@ -165,90 +171,108 @@ jQuery(document).ready(function($){
 	}
 
 	function singleLetters($words) {
-		$words.each(function(){
+		$words.each(function () {
 			var word = $(this),
 				letters = word.text().split(''),
 				selected = word.hasClass('is-visible');
 			for (i in letters) {
-				if(word.parents('.rotate-2').length > 0) letters[i] = '<em>' + letters[i] + '</em>';
-				letters[i] = (selected) ? '<i class="in">' + letters[i] + '</i>': '<i>' + letters[i] + '</i>';
+				if (word.parents('.rotate-2').length > 0) letters[i] = '<em>' + letters[i] + '</em>';
+				letters[i] = (selected) ? '<i class="in">' + letters[i] + '</i>' : '<i>' + letters[i] + '</i>';
 			}
-		    var newLetters = letters.join('');
-		    word.html(newLetters).css('opacity', 1);
+			var newLetters = letters.join('');
+			word.html(newLetters).css('opacity', 1);
 		});
 	}
 
 	function animateHeadline($headlines) {
 		var duration = animationDelay;
-		$headlines.each(function(){
+		$headlines.each(function () {
 			var headline = $(this);
 
-			if(headline.hasClass('loading-bar')) {
+			if (headline.hasClass('loading-bar')) {
 				duration = barAnimationDelay;
-				setTimeout(function(){ headline.find('.cd-words-wrapper').addClass('is-loading') }, barWaiting);
-			} else if (headline.hasClass('clip')){
+				setTimeout(function () {
+					headline.find('.cd-words-wrapper').addClass('is-loading')
+				}, barWaiting);
+			} else if (headline.hasClass('clip')) {
 				var spanWrapper = headline.find('.cd-words-wrapper'),
-					newWidth = spanWrapper.width() +10;
+					newWidth = spanWrapper.width() + 10;
 				spanWrapper.css('width', newWidth);
-			} else if (!headline.hasClass('type') ) {
+			} else if (!headline.hasClass('type')) {
 				//assign to .cd-words-wrapper the width of its longest word
 				var words = headline.find('.cd-words-wrapper b'),
 					width = 0;
-				words.each(function(){
+				words.each(function () {
 					var wordWidth = $(this).width();
-				    if (wordWidth > width) width = wordWidth;
+					if (wordWidth > width) width = wordWidth;
 				});
 				headline.find('.cd-words-wrapper').css('width', width);
 			};
 
 			//trigger animation
-			setTimeout(function(){ hideWord( headline.find('.is-visible').eq(0) ) }, duration);
+			setTimeout(function () {
+				hideWord(headline.find('.is-visible').eq(0))
+			}, duration);
 		});
 	}
 
 	function hideWord($word) {
 		var nextWord = takeNext($word);
 
-		if($word.parents('.cd-headline').hasClass('type')) {
+		if ($word.parents('.cd-headline').hasClass('type')) {
 			var parentSpan = $word.parent('.cd-words-wrapper');
 			parentSpan.addClass('selected').removeClass('waiting');
-			setTimeout(function(){
+			setTimeout(function () {
 				parentSpan.removeClass('selected');
 				$word.removeClass('is-visible').addClass('is-hidden').children('i').removeClass('in').addClass('out');
 			}, selectionDuration);
-			setTimeout(function(){ showWord(nextWord, typeLettersDelay) }, typeAnimationDelay);
+			setTimeout(function () {
+				showWord(nextWord, typeLettersDelay)
+			}, typeAnimationDelay);
 
-		} else if($word.parents('.cd-headline').hasClass('letters')) {
+		} else if ($word.parents('.cd-headline').hasClass('letters')) {
 			var bool = ($word.children('i').length >= nextWord.children('i').length) ? true : false;
 			hideLetter($word.find('i').eq(0), $word, bool, lettersDelay);
 			showLetter(nextWord.find('i').eq(0), nextWord, bool, lettersDelay);
 
-		}  else if($word.parents('.cd-headline').hasClass('clip')) {
-			$word.parents('.cd-words-wrapper').animate({ width : '2px' }, revealDuration, function(){
+		} else if ($word.parents('.cd-headline').hasClass('clip')) {
+			$word.parents('.cd-words-wrapper').animate({
+				width: '2px'
+			}, revealDuration, function () {
 				switchWord($word, nextWord);
 				showWord(nextWord);
 			});
 
-		} else if ($word.parents('.cd-headline').hasClass('loading-bar')){
+		} else if ($word.parents('.cd-headline').hasClass('loading-bar')) {
 			$word.parents('.cd-words-wrapper').removeClass('is-loading');
 			switchWord($word, nextWord);
-			setTimeout(function(){ hideWord(nextWord) }, barAnimationDelay);
-			setTimeout(function(){ $word.parents('.cd-words-wrapper').addClass('is-loading') }, barWaiting);
+			setTimeout(function () {
+				hideWord(nextWord)
+			}, barAnimationDelay);
+			setTimeout(function () {
+				$word.parents('.cd-words-wrapper').addClass('is-loading')
+			}, barWaiting);
 
 		} else {
 			switchWord($word, nextWord);
-			setTimeout(function(){ hideWord(nextWord) }, animationDelay);
+			setTimeout(function () {
+				hideWord(nextWord)
+			}, animationDelay);
 		}
 	}
 
 	function showWord($word, $duration) {
-		if($word.parents('.cd-headline').hasClass('type')) {
+		if ($word.parents('.cd-headline').hasClass('type')) {
 			showLetter($word.find('i').eq(0), $word, false, $duration);
 			$word.addClass('is-visible').removeClass('is-hidden');
 
-		}  else if($word.parents('.cd-headline').hasClass('clip')) {
-			$word.parents('.cd-words-wrapper').animate({ 'width' : $word.width() + 10 }, revealDuration, function(){
-				setTimeout(function(){ hideWord($word) }, revealAnimationDelay);
+		} else if ($word.parents('.cd-headline').hasClass('clip')) {
+			$word.parents('.cd-words-wrapper').animate({
+				'width': $word.width() + 10
+			}, revealDuration, function () {
+				setTimeout(function () {
+					hideWord($word)
+				}, revealAnimationDelay);
 			});
 		}
 	}
@@ -256,13 +280,17 @@ jQuery(document).ready(function($){
 	function hideLetter($letter, $word, $bool, $duration) {
 		$letter.removeClass('in').addClass('out');
 
-		if(!$letter.is(':last-child')) {
-		 	setTimeout(function(){ hideLetter($letter.next(), $word, $bool, $duration); }, $duration);
-		} else if($bool) {
-		 	setTimeout(function(){ hideWord(takeNext($word)) }, animationDelay);
+		if (!$letter.is(':last-child')) {
+			setTimeout(function () {
+				hideLetter($letter.next(), $word, $bool, $duration);
+			}, $duration);
+		} else if ($bool) {
+			setTimeout(function () {
+				hideWord(takeNext($word))
+			}, animationDelay);
 		}
 
-		if($letter.is(':last-child') && $('html').hasClass('no-csstransitions')) {
+		if ($letter.is(':last-child') && $('html').hasClass('no-csstransitions')) {
 			var nextWord = takeNext($word);
 			switchWord($word, nextWord);
 		}
@@ -271,11 +299,21 @@ jQuery(document).ready(function($){
 	function showLetter($letter, $word, $bool, $duration) {
 		$letter.addClass('in').removeClass('out');
 
-		if(!$letter.is(':last-child')) {
-			setTimeout(function(){ showLetter($letter.next(), $word, $bool, $duration); }, $duration);
+		if (!$letter.is(':last-child')) {
+			setTimeout(function () {
+				showLetter($letter.next(), $word, $bool, $duration);
+			}, $duration);
 		} else {
-			if($word.parents('.cd-headline').hasClass('type')) { setTimeout(function(){ $word.parents('.cd-words-wrapper').addClass('waiting'); }, 200);}
-			if(!$bool) { setTimeout(function(){ hideWord($word) }, animationDelay) }
+			if ($word.parents('.cd-headline').hasClass('type')) {
+				setTimeout(function () {
+					$word.parents('.cd-words-wrapper').addClass('waiting');
+				}, 200);
+			}
+			if (!$bool) {
+				setTimeout(function () {
+					hideWord($word)
+				}, animationDelay)
+			}
 		}
 	}
 
@@ -292,5 +330,3 @@ jQuery(document).ready(function($){
 		$newWord.removeClass('is-hidden').addClass('is-visible');
 	}
 });
-
-  
