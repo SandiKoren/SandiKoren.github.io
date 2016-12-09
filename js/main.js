@@ -101,7 +101,7 @@ $("a.navbar-brand[href^='#']").on('click', function (e) {
 
 });
 
-$("#third-section[href^='#']").on('click', function (e) {
+$("#skills[href^='#']").on('click', function (e) {
 
 	// prevent default anchor click behavior
 	e.preventDefault();
@@ -141,7 +141,7 @@ $(".first-section .first-text a[href^='#']").on('click', function (e) {
 	});
 
 });
-$("#fourth-section[href^='#']").on('click', function (e) {
+$("#contact[href^='#']").on('click', function (e) {
 
 	// prevent default anchor click behavior
 	e.preventDefault();

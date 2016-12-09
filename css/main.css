@@ -402,7 +402,7 @@ h6 {
   text-align: center;
 }
 
-#first-section h2 {
+#home h2 {
   text-transform: uppercase;
   margin-bottom: 16px;
 }
@@ -493,7 +493,7 @@ h6 {
 /* SECOND SECTION ABOUT ME
 /*------------------------------------------------------------------*/
 
-#second-section {
+#about-me {
   background-color: #fff;
   position: relative;
   background-size: cover;
@@ -501,7 +501,7 @@ h6 {
   text-align: center;
 }
 
-#second-section .about-me1 {
+#about-me .about-me1 {
   background: #fff;
   padding-top: 30px;
 }
@@ -512,13 +512,13 @@ h6 {
   font-weight: bold;
 }
 
-#second-section h1 {
+#about-me h1 {
   font-size: 1.2em;
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
 }
 
-#second-section .about {
+#about-me .about {
   overflow: hidden;
   margin-left: 0;
   margin-right: 0;
@@ -526,7 +526,7 @@ h6 {
   padding-right: 0px;
 }
 
-#second-section .about-me2 {
+#about-me .about-me2 {
   padding-top: 20px;
 }
 
@@ -667,6 +667,7 @@ h6 {
   transition: all ease-in-out .4s;
   margin-left: 20px;
   margin-right: 20px;
+  text-align: justify;
 }
 
 .hovereffect p.info:hover {
@@ -886,19 +887,19 @@ h6 {
 
 /*------------------------------------------------------------------*/
 
-#fourth-section .row {
+#contact .row {
   margin-left: 0;
   margin-right: 0;
 }
 
-#fourth-section {
+#contact {
   position: relative;
   background-color: #191a1a;
   background-size: cover;
   text-align: center;
 }
 
-#fourth-section .col-xs-12 {
+#contact .col-xs-12 {
   padding-left: 0;
   padding-right: 0;
 }
@@ -907,7 +908,7 @@ h6 {
   padding: 60px 0;
 }
 
-#fourth-section .col-xs-12 h1 {
+#contact .col-xs-12 h1 {
   color: #fff;
 }
 
@@ -1139,11 +1140,11 @@ hr.style-two {
   .first-section {
     background-attachment: fixed;
   }
-  #first-section h3 {
+  #home h3 {
     line-height: 105px;
     margin: 30px 0;
   }
-  #first-section h2 {
+  #home h2 {
     margin-bottom: 26px;
   }
   .cd-headline span {
@@ -1173,13 +1174,13 @@ hr.style-two {
     color: #fff;
     background-color: transparent;
   }
-  #second-section h1 {
+  #about-me h1 {
     font-size: 2em;
   }
-  #second-section .about-me1 {
+  #about-me .about-me1 {
     padding-top: 60px;
   }
-  #second-section .about-me2 {
+  #about-me .about-me2 {
     padding-top: 40px;
   }
   .about-me1 p {
@@ -1415,7 +1416,7 @@ hr.style-two {
   .mypict {
     height: 575px;
   }
-  #second-section h1 {
+  #about-me h1 {
     font-size: 2.5em;
   }
   .about-me1 p {
