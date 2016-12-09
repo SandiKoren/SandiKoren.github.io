@@ -52,7 +52,7 @@ $(document).ready(function () {
 
 
 	$('.mypict').waypoint(function () {
-		$('.mypict').addClass('mypicture');
+		$('.mypict').toggleClass('mypicture');
 	}, {
 		offset: '40%'
 	});
